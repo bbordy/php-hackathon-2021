@@ -1,0 +1,12 @@
+INSERT INTO admin VALUES (1, "token1", "Admin"), (2, "token2", "Vlad Voiculescu"), (3, "token3", "George Maior"),
+                        (4, "token4", "Vladimir Putin");
+
+INSERT INTO room (name) VALUES ("The Gym"), ("Black Magic"), ("Absolute Yoga"),
+                        ("The Dojo"), ("Isolation Tanks"), ("Dance Hall");
+
+INSERT INTO programme_type (name) VALUES ("Shotokan"), ("Mastering Evocation"), ("Integration into the Absoulte"),
+                        ("Cardio"), ("Spontaneous Applause"), ("Ballet dancing");
+
+INSERT INTO `programme` (`id`, `programme_type_id`, `room_id`, `start_date`, `max_participants`, `end_date`)
+VALUES (NULL, '4', '4', '2021-04-19 09:00:00', '10', '2021-04-19 11:00:00'),
+        (NULL, '5', '5', '2021-04-19 14:00:00', '20', '2021-04-19 17:00:00');

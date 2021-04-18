@@ -21,9 +21,9 @@ In this section, please provide a brief overview of the design of your applicati
 For each of the following functionalities, please tick the box if you implemented it and describe its input and output in your application:
 
 [x] Brew coffee \
-[ ] Create programme \
+[X] Create programme \
 [ ] Delete programme \
-[ ] Book a programme 
+[x] Book a programme 
 
 ##### Business rules
 Please highlight all the validations and mechanisms you identified as necessary in order to avoid inconsistent states and apply the business logic in your application.
@@ -35,9 +35,9 @@ Please give a brief review of the 3rd party libraries you used and how/ why you'
 Please fill in the following table with the technologies you used in order to work at your application. Feel free to add more rows if you want us to know about anything else you used.
 | Name | Choice |
 | ------ | ------ |
-| Operating system (OS) | e.g. Ubuntu 20.04 |
+| Operating system (OS) | e.g.Windows 10 |
 | Database  | e.g. MySQL 8.0|
-| Web server| e.g. Nginx |
+| Web server| e.g. Apache|
 | PHP | e.g. 7.0 |
 | IDE | e.g. PhpStorm |
 
